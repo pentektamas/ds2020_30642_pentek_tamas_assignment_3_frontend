@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  tomcat-db-api:
+    image: frontend3
+    ports:
+       - "8080:8080"
